@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.sidebar{
+    width: 20%;
+    background-color: rgb(243, 243, 243);
+    height: 120vh;
+    padding: 8px;
+}
+
+.main-content{
+    width: 80%;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+
+.account-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+
+}
+
+.icons{
+    height: 18px;
+    margin: 7px;
+    padding: 2px;
+}
+
+.icons-bg-color-img{
+    height: 18px;
+    width: 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.center{
+    display: flex;
+    align-items: center
+}
+
+.sidebar-blocks{
+    margin-top: 2px;
+    padding: 6px;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.search{
+    width: 80%;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(243, 243, 243);
+    border: 1px  grey;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.main-content{
+    padding: 20px;
+}
+
+.m01{
+    margin: 0.1rem;
+}
+
+.info-box{
+    display: flex;
+    margin: 10px 0px;
+    padding: 8px 1px;
+}
+
+.info-box .label p{
+    margin: 11px 0px ;
+}
+
+
+.priority-ans{
+    display: flex;
+    align-items: center;
+    background-color: cyan;
+    border-radius: 4px;
+    justify-content: center;
+    width: 50%;
+    margin: 6px;
+}
+
+.asignee-ans{
+    display: flex;
+    margin:  6px 0px;
+}
+
+.sub-asignee-ans{
+    background-color: grey;
+    padding: 3px 6px;
+    margin: 6px;
+    border-radius: 20px;
+}
+
+.deadline-ans{
+    margin:  6px 0px;
+    padding: 0px 10px;
+}
+
+.tags-ans{
+    display: flex;
+    margin: 6px 0px;
+}
+
+.sub-tags-ans{
+    padding: 3px 6px;
+    margin: 1px 8px;
+    border-radius: 2px;
+}
+
+.info-title{
+    margin: 10px 0px
+}
+
+.path
+{
+    margin: 10px 0px
+}
+
+.cardContainer{
+    background-color: rgb(243, 243, 243);
+    border: 2px solid white;
+}
+
+.cardNavbar{
+    display: flex ; 
+    margin: 7px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+
+.card{
+    margin: 7px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.cardContent{
+    margin: 7px;
+    padding: 8px;
+}
+
+.cardNavItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+.cardColumn{
+    width: 25%;
+}
+
+.cardInfoContainer{
+    display: flex;
+}
+
+.cardTitle{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px
+}
+
+.innerCard{
+    display: flex;
+}
+
+.innerCard div{
+    display: flex;
+    align-items: center;
+}
+
+.cardFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone{
+    width: 90%;
+    height: 30%;
+    border-radius: 8px;
+}
+
+.card-img-item{
+    border-radius: 50%;
+    margin: 4px -1px;
+    height: 18px;
+}
+
+.addTask{
+    display: flex;
+    justify-content: center;
+    border: 0.1px solid rgb(230, 230, 230);
+    border-radius: 22px;
+    background-color: rgb(236, 236, 236);
+    color: blue;
+    cursor: pointer;
+}
+
+.flex-align{
+    display: flex;
+    align-items: center;
+}
+
+.txt-grey {
+    color: grey;
+    font-weight: bold;
+}
+
+.txt-light-grey{
+    color: rgb(163, 163, 163);
+}
+
+.section-navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-navbar-title{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 10px;
+}
+
+.section-navbar-title-highlighted{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.section-navbar-addTask{
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    margin: 10px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.illustration {
+    width: 90%;
+    height: 120px;
+    border-radius: 8px;
+}
